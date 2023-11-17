@@ -33,18 +33,35 @@ botondos.onclick = function () {
 }
 
 
-let botontres = document.querySelector('#cambiarColordorado')
-let imagentres= document.querySelector('#iphone13promax')
+let botontres = document.querySelector('#cambiarColorazul')
+let imagentres= document.querySelector('#iphone14')
 
 let imagenCambiadatres = false;
 
-botonuno.onclick = function () {
+botontres.onclick = function () {
     if (imagenCambiadatres == false) {
-        imagenuno.src = '/Imagenes/iPhone13ProMaX-removebg-preview (1).png'
+        imagentres.src = 'Imagenes/iPhone 14.png'
         imagenCambiadatres = true
     }else{ 
-        imagentres.src = '/Imagenes/iphones13promax.png'
+        imagentres.src = 'Imagenes/iphones14.png'
         imagenCambiadatres = false
+
+    } 
+
+}
+
+let botoncuatro = document.querySelector('#cambiarColorrosa')
+let imagencuatro = document.querySelector('#iphone13')
+
+let imagenCambiadacuatro = false;
+
+botoncuatro.onclick = function () {
+    if (imagenCambiadacuatro == false) {
+        imagencuatro.src = 'Imagenes/iPhone 13,,.png'
+        imagenCambiadacuatro = true
+    }else{ 
+        imagencuatro.src = 'Imagenes/iphones14.png'
+        imagenCambiadacuatro = false
 
     } 
 
