@@ -5,10 +5,10 @@ let imagenCambiadauno = false;
 
 botonuno.onclick = function () {
     if (imagenCambiadauno == false) {
-        imagenuno.src = '/Imagenes/iPhone13ProMaX-removebg-preview (1).png'
+        imagenuno.src = 'Imagenes/iPhone13ProMax.png'
         imagenCambiadauno = true
     }else{ 
-        imagenuno.src = '/Imagenes/iphones13promax.png'
+        imagenuno.src = 'Imagenes/iphonespromax.png'
         imagenCambiadauno = false
 
     } 
@@ -22,10 +22,10 @@ let imagenCambiadados = false;
 
 botondos.onclick = function () {
     if (imagenCambiadados == false) {
-        imagendos.src = 'Imagenes/iPhone13ProMax...png'
+        imagendos.src = 'Imagenes/iPhone14ProMax.png'
         imagenCambiadados = true
     }else{ 
-        imagendos.src = '/Imagenes/iphones13promax.png'
+        imagendos.src = 'Imagenes/iphonespromax.png'
         imagenCambiadados = false
 
     } 
@@ -43,7 +43,7 @@ botontres.onclick = function () {
         imagentres.src = 'Imagenes/iPhone 14.png'
         imagenCambiadatres = true
     }else{ 
-        imagentres.src = 'Imagenes/iphones14.png'
+        imagentres.src = 'Imagenes/iphones.png'
         imagenCambiadatres = false
 
     } 
@@ -57,10 +57,10 @@ let imagenCambiadacuatro = false;
 
 botoncuatro.onclick = function () {
     if (imagenCambiadacuatro == false) {
-        imagencuatro.src = 'Imagenes/iPhone 13,,.png'
+        imagencuatro.src = 'Imagenes/iPhone 13.png'
         imagenCambiadacuatro = true
     }else{ 
-        imagencuatro.src = 'Imagenes/iphones14.png'
+        imagencuatro.src = 'Imagenes/iphones.png'
         imagenCambiadacuatro = false
 
     } 
