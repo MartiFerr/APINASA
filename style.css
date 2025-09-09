@@ -2,14 +2,35 @@
     width: 30%;
 }
 .card{
-background-color: cornsilk;
+background-color: rgb(222, 247, 255);
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-}
+    font-size: 1.5rem; /* tamaño más chico que el default */
+    font-weight: bold; /* mantiene negrita */
+} 
 body{
-    background-color:rgb(199, 199, 199); ;
+    background-color:rgb(222, 247, 255); ;
 }
 .carousel-item{
     width: 50%;
+}
+img{
+    width: 200px;
+}
+
+.contenedor{
+    background-color: rgb(118, 131, 173);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 700px;
+    border-radius: 1.3rem;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
 }
