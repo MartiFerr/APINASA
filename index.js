@@ -3,7 +3,7 @@ let key = "014R8sSXippvKxk9B3uTGQmtHgzzrNoA4wbLFj8E";
 
 let imagenDelDia = document.querySelector('#imagenDelDia');
 let boton = document.querySelector('#boton');
-let titulo = document.querySelector('h1');
+let titulo = document.querySelector('#tituloDia');
 
 boton.onclick = function () {
     fetch(`https://api.nasa.gov/planetary/apod?api_key=${key}`)
